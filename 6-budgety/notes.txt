@@ -1,0 +1,55 @@
+Our apps to-do list
+
+	-adding an event handler
+
+	-get data out of input fields
+
+	-data will be printed to UI, add new item to our data structure
+
+	-Add the new item to the UI
+
+	-calculate the budget
+
+	-Update the UI
+
+	Structuring our code through the use of modules
+
+		They are an important aspect of any robust applications architecture
+
+		They keep the units of code for a project both cleanly separated and organized
+
+		They allow us to encapsulate some data into privacy and expose other data publicly 
+
+		we can break up code into logical parts and make them interact with each other
+
+		With our app, some tasks deal more with UI, and some deal with data
+
+		UI module:
+
+		Get input values
+		add the new item to the UI
+		Update the UI
+
+		Data module:
+		Add the new item to our data structure
+		Calculate the budget
+
+		Controller Module:
+		Add event handler --> goal is to control the entire app, and also form a connection between the UI and Data modules --> MVC structure :)
+
+		How do we use a module pattern in JS and how do we implement it?
+
+		what is private and piublic data
+
+		what does it mean to expose methods and what is encapsulation and separation of concerns
+
+		we use modules because we want to keep code that is related to each other, separate and independent, in order keep things clean and organized
+
+		in each module, we will have variables and function that are private and can only be accessed within the module
+
+		Use of module pattern to create modules in JS
+		the module pattern follows a very basic MVC architecture, which basically has separate UI, Data modules that are connected in a main app module through IFFE's (Immediately Invoked Function Expressions)
+
+		How to read data from different input types
+
+
