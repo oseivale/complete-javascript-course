@@ -50,6 +50,10 @@ Our apps to-do list
 		Use of module pattern to create modules in JS
 		the module pattern follows a very basic MVC architecture, which basically has separate UI, Data modules that are connected in a main app module through IFFE's (Immediately Invoked Function Expressions)
 
-		How to read data from different input types
+		How to read data from different HTML input types --> we can use DOM manuplation, and the module structure in order for the modules to talk to one another and select classes on the document that can be updated
+
+		How and why do we create an initialization function
+
+
 
 
