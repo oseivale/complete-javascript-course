@@ -69,7 +69,7 @@ var budgetController = (function() {
             }
             
             // Create new item based on 'inc' or 'exp' type
-            if (type === 'exp') {
+            if(type === 'exp') {
                 newItem = new Expense(ID, des, val);
             } else if (type === 'inc') {
                 newItem = new Income(ID, des, val);
